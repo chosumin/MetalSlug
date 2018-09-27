@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="System\Buffers.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Window.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Keyboard.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mouse.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Direct2D.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer\Animation.cpp">
+      <Filter>Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer\Vertex1.cpp">
+      <Filter>Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\TextureManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Point.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon\Rect.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Size.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer\Drawer.cpp">
+      <Filter>Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer\RectDrawer.cpp">
+      <Filter>Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer\TextureDrawer.cpp">
+      <Filter>Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Text.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FreeCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FollowCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Timer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Gun.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bullet.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Pistol.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Tile.cpp">
+      <Filter>Game\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ImageCuttingManager.cpp">
+      <Filter>Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CameraPlayerManager.cpp">
+      <Filter>Game\Managers\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Monster.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CharacterAnimation.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Character.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Tarma.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MonsterAnimation.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TextureAddManager.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SmallCrapTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TarmaTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MonsterManager.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FlyTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\MoveManager.cpp">
+      <Filter>Game\Managers\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\IntersectManager.cpp">
+      <Filter>Game\Managers\Intersect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\BackgroundManager.cpp">
+      <Filter>Game\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\AttackManager.cpp">
+      <Filter>Game\Managers\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SmallCrab.cpp">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SmallCrabRange.cpp">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CharacterBullet.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Fly.cpp">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Npc.cpp">
+      <Filter>Game\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\NpcTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\RocketLauncher.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StateManager.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TruckTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Truck.cpp">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bubble.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TruckMissile.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PublicInterface.cpp">
+      <Filter>Game\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DeadAnimation.cpp">
+      <Filter>Game\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DestroyTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HeavyWeapon.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FiolinaTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Fiolina.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UiTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\IManager.cpp">
+      <Filter>Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\IntroManager.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FadeEffect.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\IntroTexture.cpp">
+      <Filter>Game\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Bomb.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="System\Buffers.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Window.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Keyboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mouse.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Direct2D.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer\Animation.h">
+      <Filter>Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer\Vertex1.h">
+      <Filter>Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\TextureManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Point.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon\Rect.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Size.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer\Drawer.h">
+      <Filter>Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer\RectDrawer.h">
+      <Filter>Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer\TextureDrawer.h">
+      <Filter>Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Text.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FreeCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FollowCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Timer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Gun.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bullet.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Pistol.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Tile.h">
+      <Filter>Game\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ImageCuttingManager.h">
+      <Filter>Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CameraPlayerManager.h">
+      <Filter>Game\Managers\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Monster.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CharacterAnimation.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Character.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Tarma.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MonsterAnimation.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TextureAddManager.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SmallCrabTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TarmaTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MonsterManager.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FlyTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\MoveManager.h">
+      <Filter>Game\Managers\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IntersectManager.h">
+      <Filter>Game\Managers\Intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="Game\BackgroundManager.h">
+      <Filter>Game\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\AttackManager.h">
+      <Filter>Game\Managers\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SmallCrab.h">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SmallCrabRange.h">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CharacterBullet.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fly.h">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Npc.h">
+      <Filter>Game\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\NpcTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\RocketLauncher.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StateManager.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TruckTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Truck.h">
+      <Filter>Game\Monster\ChildClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bubble.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TruckMissile.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PublicInterface.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\DeadAnimation.h">
+      <Filter>Game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\DestroyTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HeavyWeapon.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FiolinaTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Fiolina.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UiTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IManager.h">
+      <Filter>Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IntroManager.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FadeEffect.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IntroTexture.h">
+      <Filter>Game\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Bomb.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{2d934e1a-1869-4a24-8643-fc5192438367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Polygon">
+      <UniqueIdentifier>{024bdaa9-1ef8-473c-b8cd-787105437a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawer">
+      <UniqueIdentifier>{c78e1eff-d106-47a3-aad0-5c999aee3a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{f105422a-e571-442e-8174-177ac014485c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{a56fda74-1d01-43c2-8a90-bace253ff4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{45e01b39-5188-4a7a-a087-dd2b1b713083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{a0a4fa7a-3e70-46fb-a1f8-8e776b19b568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers">
+      <UniqueIdentifier>{ccd3b30e-cabd-446c-b154-11dc981e88ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Background">
+      <UniqueIdentifier>{72d96915-a924-467f-9d5c-93ce31c37c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monster">
+      <UniqueIdentifier>{693d3927-eb55-484c-80ae-6d1866b10358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{1d2f3062-ecd0-4f3f-8b99-07a69ba1aadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{9360d43f-39e4-4b42-9b27-e7a25edb4386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Move">
+      <UniqueIdentifier>{3bdd084a-a5a8-43cb-b3be-947fad956635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Attack">
+      <UniqueIdentifier>{45f53977-36ee-4c85-846f-3f40e4fe77df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Texture">
+      <UniqueIdentifier>{6ba6ef9e-6da0-447b-b32c-9ffd846ba57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers\Intersect">
+      <UniqueIdentifier>{27ae5a0e-c071-45fe-b2b1-4199405f8ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monster\ChildClass">
+      <UniqueIdentifier>{5be1929a-e442-47cb-8908-a00913f6b1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\NPC">
+      <UniqueIdentifier>{b0f275b7-7630-4a4d-958f-5e69c9b651f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Gun">
+      <UniqueIdentifier>{193822e0-e038-4954-a3ac-90fe8c47bb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Interface">
+      <UniqueIdentifier>{9adddd0f-f6a3-4e8c-b234-e42fd19f8457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
